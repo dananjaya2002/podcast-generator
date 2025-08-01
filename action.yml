@@ -11,8 +11,8 @@ inputs:
   email:
     description: The commiter's emial address
     required: ture
-    defaultL ${{ github.actor}}@localhost
+    defaultL ${{ github.actor }}@localhost
   name:
     description: The commiter's name
     required: ture
-    default: ${{ github.actor}}@localhost
+    default: ${{github.actor}}
